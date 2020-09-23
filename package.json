@@ -1,0 +1,42 @@
+{
+  "name": "xjgl",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode develepment",
+    "build:test": "vue-cli-service build --mode test",
+    "build:pro": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.4",
+    "echarts": "^4.7.0",
+    "echarts-gl": "^1.1.1",
+    "element-ui": "^2.13.1",
+    "highcharts": "^8.1.0",
+    "nprogress": "^0.2.0",
+    "screenfull": "^5.0.2",
+    "three": "^0.116.1",
+    "vue": "^2.6.11",
+    "vue-echarts": "^5.0.0-beta.0",
+    "vue-i18n": "^8.21.0",
+    "vue-router": "^3.1.6",
+    "vue2-highcharts": "^1.2.5",
+    "vuex": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-plugin-eslint": "^4.3.0",
+    "@vue/cli-plugin-router": "^4.3.0",
+    "@vue/cli-plugin-vuex": "^4.3.0",
+    "@vue/cli-service": "^4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "mockjs": "^1.1.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

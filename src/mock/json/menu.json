@@ -1,0 +1,143 @@
+{
+  "code": 0,
+  "result": [
+    { 
+      "menuName": "首页",
+      "menuCode": "index",
+      "path": "/index",
+      "menuIcon": "",
+      "isMenu": true,
+      "isHide": false,
+      "desc": "首页",
+      "children": []
+    },
+    {
+      "menuName": "系统管理",
+      "menuCode": "sys",
+      "path": "/sys",
+      "menuIcon": "",
+      "isMenu": true,
+      "isHide": false,
+      "desc": "系统管理",
+      "children": [
+        {
+          "menuName": "用户管理",
+          "menuCode": "user",
+          "path": "/user",
+          "menuIcon": "",
+          "isMenu": true,
+          "isHide": false,
+          "desc": "用户管理",
+          "children": []
+        }, {
+          "menuName": "角色管理",
+          "menuCode": "roule",
+          "path": "/roule",
+          "menuIcon": "",
+          "isMenu": true,
+          "isHide": true,
+          "desc": "角色管理",
+          "children": []
+        }, {
+          "menuName": "菜单管理",
+          "menuCode": "menu",
+          "path": "/menu",
+          "menuIcon": "",
+          "isMenu": true,
+          "isHide": false,
+          "desc": "菜单管理",
+          "children": []
+        }
+      ]
+    },
+    { 
+      "menuName": "demo",
+      "menuCode": "demo",
+      "path": "/demo",
+      "menuIcon": "",
+      "isMenu": true,
+      "isHide": false,
+      "desc": "demo",
+      "children": []
+    },
+    { 
+      "menuName": "chart",
+      "menuCode": "chart",
+      "path": "/chart",
+      "menuIcon": "",
+      "isMenu": true,
+      "isHide": false,
+      "desc": "chart",
+      "children": []
+    }, { 
+      "menuName": "keepalive",
+      "menuCode": "keepalive",
+      "path": "/keepalive",
+      "menuIcon": "",
+      "isMenu": true,
+      "isHide": false,
+      "desc": "keepalive",
+      "children": [
+        { 
+          "menuName": "keepalive",
+          "menuCode": "keepalive",
+          "path": "/keepalive",
+          "menuIcon": "",
+          "isMenu": true,
+          "isHide": false,
+          "desc": "keepalive",
+          "children": []
+        }, { 
+          "menuName": "editKeepalive",
+          "menuCode": "editKeepalive",
+          "path": "/editKeepalive",
+          "menuIcon": "",
+          "isMenu": true,
+          "isHide": false,
+          "desc": "editKeepalive",
+          "children": []
+        }
+      ]
+    }, {
+      "menuName": "highcharts",
+      "menuCode": "highcharts",
+      "path": "/highcharts",
+      "menuIcon": "",
+      "isMenu": true,
+      "isHide": false,
+      "desc": "highcharts",
+      "children": []
+    },
+    {
+      "menuName": "Table",
+      "menuCode": "Table",
+      "path": "/Table",
+      "menuIcon": "",
+      "isMenu": true,
+      "isHide": false,
+      "desc": "Table",
+      "children": []
+    },
+    {
+      "menuName": "screenfull",
+      "menuCode": "screenfull",
+      "path": "/screenfull",
+      "menuIcon": "",
+      "isMenu": true,
+      "isHide": false,
+      "desc": "screenfull 全屏大图",
+      "children": []
+    },
+    {
+      "menuName": "collapse",
+      "menuCode": "collapse",
+      "path": "/collapse",
+      "menuIcon": "",
+      "isMenu": true,
+      "isHide": false,
+      "desc": "collapse",
+      "children": []
+    }
+  ],
+  "msg": "请求成功"
+}
