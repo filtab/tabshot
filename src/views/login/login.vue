@@ -9,7 +9,7 @@
         <el-input type="password" v-model="loginForm.password" auto-complete="off" placeholder="请输入密码" show-password></el-input>
       </el-form-item>
       <el-form-item style="width:100%;">
-        <el-button type="primary" style="width:100%;" :loading="logining" >登录</el-button>
+        <el-button type="primary" style="width:100%;" :loading="logining" @click="submitForm()">登录</el-button>
       </el-form-item>
     </el-form>
   </div>
@@ -35,6 +35,11 @@ export default {
           // { validator: validaePass2 }
         ]
       }
+    }
+  },
+  methods: {
+    submitForm() {
+      this.$router.push('/tabshot')
     }
   }
 }

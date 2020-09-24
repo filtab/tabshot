@@ -9,11 +9,11 @@ import { test } from '@/api/commonApi'
 export default {
   data() {
     return {
-      
+
     }
   },
   mounted() {
     console.log(test)
-  },
+  }
 }
 </script>
